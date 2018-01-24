@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__content">
+            <div class="mobile-nav">
+                <i class="fa fa-bars mobile-nav__button open-button" aria-hidden="true"></i>
+                <i class="fa fa-times mobile-nav__button close-button" aria-hidden="true"></i>
+            </div>
+            <div class="header__logo">
+                <img class="logo-img" src="src/icons/logo.png" alt="logo" align="left" vspace="3" hspace="3"/>
+                <h3 class="header__logo_title">Logo</h3>
+            </div>
+            <nav class="header__nav">
+                <div class="overlay">
+                    <a href="#" class="header__nav-link">ABOUT
+                        <span class="header__nav_sub-link sub-link__first-open"></span>
+                        <span class="header__nav_sub-link sub-link__first-close"></span>
+                    </a>
+                    <div class="sub-links sub-links__first">
+                        <ul class="sub-links__list sub-links__list-first">
+                            <li class="sub-links__item"><a href="#" class="header__nav-link">HISTORY</a></li>
+                            <li class="sub-links__item"><a href="#" class="header__nav-link">COMMAND</a></li>
+                            <li class="sub-links__item"><a href="#" class="header__nav-link">DREAMS</a></li>
+                        </ul>
+                    </div>
+                    <a href="#" class="header__nav-link nav-link2">PORTFOLIO
+                        <span class="header__nav_sub-link sub-link__last-open"></span>
+                        <span class="header__nav_sub-link sub-link__last-close"></span>
+                    </a>
+                    <div class="sub-links sub-links__last">
+                        <ul class="sub-links__list sub-links__list-last">
+                            <li class="sub-links__item"><a href="#" class="header__nav-link">SITES</a></li>
+                            <li class="sub-links__item"><a href="#" class="header__nav-link">MOBILE APPS</a></li>
+                        </ul>
+                    </div>
+                    <a href="#" class="header__nav-link nav-link3">SERVICIES</a>
+                    <a href="#" class="header__nav-link nav-link4">CONTACTS</a>
+                </div>
+            </nav>
+            <div class="header__button">
+                <a href="#" class="callback-button">Callback</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="cards">
+        <h1 class="cards__title">Our cards</h1>
+        <div class="cards__content">
+            <div class="cards__content-item"></div>
+            <div class="cards__content-item"></div>
+            <div class="cards__content-item"></div>
+            <div class="cards__content-item"></div>
+            <div class="cards__content-item"></div>
+            <div class="cards__content-item"></div>
+            <div class="cards__content-item"></div>
+            <div class="cards__content-item"></div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="src/js/index.js"></script>
+</body>
+</html>
